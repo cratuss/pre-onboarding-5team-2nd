@@ -1,11 +1,16 @@
 import styled from 'styled-components';
+import Calander from '../components/BookableList/Calander';
 
 const BookableList = () => {
-  return <BookableListBlock></BookableListBlock>;
+  return (
+    <BookableListBlock>
+      <Calander />
+    </BookableListBlock>
+  );
 };
 
 const BookableListBlock = styled.div`
-  width: 80%;
+  width: 85%;
 `;
 
 export default BookableList;
