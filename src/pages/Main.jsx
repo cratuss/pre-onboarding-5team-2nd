@@ -27,7 +27,7 @@ const Main = () => {
           variant='primary'
           size='sm'
           onClick={() => {
-            localStorage.setItem('token', JSON.stringify(userName));
+            localStorage.setItem('name', JSON.stringify(userName));
             navigate('./bookableList');
           }}
         >
