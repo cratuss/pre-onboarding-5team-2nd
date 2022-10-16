@@ -1,9 +1,19 @@
 import styled from 'styled-components';
-
-const BookedListBlock = styled.div``;
+import NumberSearch from '../components/BookedList/NumberSearch';
 
 const BookedList = () => {
-  return <BookedListBlock></BookedListBlock>;
+  return (
+    <BookedListBlock>
+      <NumberSearch />
+    </BookedListBlock>
+  );
 };
+
+const BookedListBlock = styled.div`
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+`;
 
 export default BookedList;

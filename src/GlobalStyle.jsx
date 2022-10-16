@@ -16,8 +16,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    position: relative;
+    max-width: 1500px;
+    min-height: 900px;
     margin: 0 auto;
     background: #FFFFFF;
+    border: 1px solid black;
     color : #000000;
     font-family: 'Noto Sans KR', sans-serif;
   } 

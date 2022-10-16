@@ -1,9 +1,20 @@
 import styled from 'styled-components';
-
-const BookingFormBlock = styled.div``;
+import AllForm from '../components/BookingForm/AllForm';
 
 const BookingForm = () => {
-  return <BookingFormBlock></BookingFormBlock>;
+  return (
+    <BookingFormBlock>
+      <AllForm />
+    </BookingFormBlock>
+  );
 };
+
+const BookingFormBlock = styled.div`
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  align-items: center;
+`;
 
 export default BookingForm;
