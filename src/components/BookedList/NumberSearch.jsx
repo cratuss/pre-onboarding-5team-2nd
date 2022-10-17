@@ -27,8 +27,6 @@ const NumberSearch = () => {
   const confirm = () => {
     let result = false;
     for (let i = 0; i < data.length; i++) {
-      console.log(data[i].no);
-      console.log(data[i].reservation_name);
       if (String(data[i].no) === inputNum) {
         setReservationData(data[i]);
         result = true;
@@ -56,7 +54,7 @@ const NumberSearch = () => {
           확인
         </Button>
       </InputGroup>
-      {modalup && <ModalHandler modalUpBtn={modalUpBtn} />}
+      {modalup && <ModalHandler message={'예약번호를 확인해주세요.'} modalUpBtn={modalUpBtn} />}
     </NumberSearchBlock>
   );
 };

@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import React, { useState, useEffect } from 'react';
 
-function ModalHandler({ modalUpBtn }) {
+function ModalHandler({ message, modalUpBtn }) {
   return (
     <ModalHandlerBlock>
       <div className='modalBody' onClick={e => e.stopPropagation()}>
         <header className='layer-header'>
           <p className='tit'>알 림</p>
         </header>
-        <p style={{ textAlign: 'left', paddingTop: '35px', color: 'black' }}>예약번호를 확인해주세요.</p>
+        <p style={{ textAlign: 'left', paddingTop: '35px', color: 'black' }}>{message}</p>
 
         <button id='modalCloseBtn' onClick={modalUpBtn}>
           확인
