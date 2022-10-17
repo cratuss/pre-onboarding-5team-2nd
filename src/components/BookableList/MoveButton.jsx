@@ -29,6 +29,10 @@ const MoveButtonBlock = styled.div`
     margin: 0 10px 0 10px;
     border: none;
   }
+  @media screen and (max-width: 967px) {
+    font-size: 0.5em;
+    width: 80%;
+  }
 `;
 
 export default MoveButton;

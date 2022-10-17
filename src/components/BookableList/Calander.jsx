@@ -35,12 +35,17 @@ const Calander = () => {
 };
 
 const CalanderBlock = styled.div`
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 50px 0 50px 0;
   height: 100%;
+  @media screen and (max-width: 967px) {
+    padding: 0;
+  }
+
   .react-datepicker {
     font-size: 1.5em;
   }

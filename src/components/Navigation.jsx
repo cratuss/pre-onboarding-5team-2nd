@@ -44,6 +44,19 @@ const NavigationBlock = styled.div`
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 967px) {
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    height: 10%;
+    width: 100%;
+    ul {
+      display: flex;
+      li {
+        margin: auto 0px;
+        padding-right: 10px;
+      }
+    }
+  }
 `;
 
 export default Navigation;

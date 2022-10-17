@@ -11,11 +11,13 @@ const BookableList = () => {
 };
 
 const BookableListBlock = styled.div`
-  position: absolute;
+  position: relative;
   width: 80%;
-  height: 100%;
   margin-left: 20%;
-  align-items: center;
+  @media screen and (max-width: 967px) {
+    top: 100px;
+    margin: 0 auto;
+  }
 `;
 
 export default BookableList;
