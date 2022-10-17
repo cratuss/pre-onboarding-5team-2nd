@@ -59,16 +59,35 @@ const SelectboxBlock = styled.div`
   ul {
     max-width: 530px;
     display: flex;
+    li {
+      border: 1px solid black;
+      margin: 20px 0 20px 0;
+      padding: 8px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   }
-  li {
-    border: 1px solid black;
-    margin: 20px 0 20px 0;
-    padding: 8px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+
   p {
     margin: 10px 0;
+  }
+  @media screen and (max-width: 560px) {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      li {
+        width: 25%;
+        border: 1px solid black;
+        padding: 4px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+
+    p {
+      margin: 5px 0;
+    }
   }
 `;
 

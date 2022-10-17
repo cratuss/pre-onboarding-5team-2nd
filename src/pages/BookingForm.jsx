@@ -10,11 +10,15 @@ const BookingForm = () => {
 };
 
 const BookingFormBlock = styled.div`
-  position: absolute;
+  position: relative;
   width: 80%;
   height: 100%;
   margin-left: 20%;
-  align-items: center;
+  top: 100px;
+  @media screen and (max-width: 967px) {
+    width: 100%;
+    margin: auto 0px;
+  }
 `;
 
 export default BookingForm;

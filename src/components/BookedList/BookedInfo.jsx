@@ -47,11 +47,13 @@ const BookedInfo = () => {
 };
 
 const Wrapper = styled.div`
-  position: absolute;
+  position: relative;
   width: 80%;
   height: 100%;
   margin-left: 20%;
-  font: 1.5em/1 'Noto Sans KR';
+  top: 10vh;
+  font: 1.5em/1.2 'Noto Sans KR';
+
   .BookedInfoBlock {
     display: flex;
     justify-content: center;
@@ -69,6 +71,19 @@ const Wrapper = styled.div`
         margin-top: 20px;
       }
     }
+  }
+  @media screen and (max-width: 967px) {
+    width: 100%;
+    font: 1.5em/1.2 'Noto Sans KR';
+    margin: auto 0px;
+    .BookedInfoBlock {
+      div {
+        border: 0px;
+      }
+    }
+  }
+  @media screen and (max-width: 560px) {
+    font: 1.2em/1 'Noto Sans KR';
   }
 `;
 

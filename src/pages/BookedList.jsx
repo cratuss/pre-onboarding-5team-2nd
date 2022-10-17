@@ -10,10 +10,15 @@ const BookedList = () => {
 };
 
 const BookedListBlock = styled.div`
-  position: absolute;
+  position: relative;
   width: 80%;
   height: 100%;
   margin-left: 20%;
+  top: 30vh;
+  @media screen and (max-width: 967px) {
+    width: 100%;
+    margin: auto 0px;
+  }
 `;
 
 export default BookedList;

@@ -18,7 +18,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     position: relative;
     max-width: 1500px;
-    min-height: 900px;
+    max-height: 1000px;
+    min-height: 800px;
     margin: 0 auto;
     background: #FFFFFF;
     border: 1px solid black;

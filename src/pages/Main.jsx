@@ -43,10 +43,17 @@ const MainBlock = styled.div`
   width: 80%;
   height: 100%;
   margin-left: 20%;
-  align-items: center;
   video {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 100%;
+  }
+  @media screen and (max-width: 967px) {
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    top: 10%;
   }
 `;
 
