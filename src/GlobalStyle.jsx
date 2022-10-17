@@ -19,12 +19,15 @@ const GlobalStyle = createGlobalStyle`
     position: relative;
     max-width: 1500px;
     max-height: 1000px;
-    min-height: 800px;
+    min-height: 780px;
     margin: 0 auto;
     background: #FFFFFF;
     border: 1px solid black;
     color : #000000;
     font-family: 'Noto Sans KR', sans-serif;
+    @media screen and (max-width: 560px) {
+      min-height: 700px;
+    }
   } 
 `;
 

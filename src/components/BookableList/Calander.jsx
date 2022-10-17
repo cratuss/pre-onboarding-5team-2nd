@@ -43,7 +43,7 @@ const CalanderBlock = styled.div`
   padding: 50px 0 50px 0;
   height: 100%;
   @media screen and (max-width: 967px) {
-    padding: 0;
+    padding: 0px;
   }
 
   .react-datepicker {
@@ -77,6 +77,7 @@ const CalanderBlock = styled.div`
     border-left-color: #ccc;
     right: 1em;
   }
+
   @media screen and (max-width: 560px) {
     .react-datepicker {
       font-size: 1em;

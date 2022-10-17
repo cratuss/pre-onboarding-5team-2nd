@@ -27,13 +27,14 @@ const Complete = () => {
 };
 
 const ReservationCompleteBlock = styled.div`
-  position: absolute;
+  position: relative;
   width: 80%;
   height: 100%;
   margin-left: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  top: 100px;
+  @media screen and (max-width: 967px) {
+    margin: 0 auto;
+  }
   div {
     text-align: center;
     p {

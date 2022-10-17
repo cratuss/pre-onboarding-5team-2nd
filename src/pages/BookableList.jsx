@@ -13,6 +13,7 @@ const BookableList = () => {
 const BookableListBlock = styled.div`
   position: relative;
   width: 80%;
+  height: 100%;
   margin-left: 20%;
   @media screen and (max-width: 967px) {
     top: 100px;

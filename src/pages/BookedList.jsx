@@ -14,7 +14,7 @@ const BookedListBlock = styled.div`
   width: 80%;
   height: 100%;
   margin-left: 20%;
-  top: 30vh;
+  top: 300px;
   @media screen and (max-width: 967px) {
     width: 100%;
     margin: auto 0px;

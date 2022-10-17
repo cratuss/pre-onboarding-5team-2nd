@@ -2,11 +2,15 @@ import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import { SelectTimeContext } from '../../App';
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 
 const MoveButton = () => {
   const navigate = useNavigate();
   const { selectTime, setSelectTime } = useContext(SelectTimeContext);
+
+  useEffect(() => {
+    setSelectTime();
+  }, []);
 
   return (
     <MoveButtonBlock>
@@ -30,8 +34,10 @@ const MoveButtonBlock = styled.div`
     border: none;
   }
   @media screen and (max-width: 967px) {
-    font-size: 0.5em;
     width: 80%;
+    button {
+      font-size: 0.8em;
+    }
   }
 `;
 

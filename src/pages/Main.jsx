@@ -41,7 +41,7 @@ const Main = () => {
 const MainBlock = styled.div`
   position: absolute;
   width: 80%;
-  height: 100%;
+  height: 90%;
   margin-left: 20%;
   video {
     display: flex;
