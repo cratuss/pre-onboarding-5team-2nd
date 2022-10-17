@@ -31,7 +31,7 @@ const ReservationCompleteBlock = styled.div`
   width: 80%;
   height: 100%;
   margin-left: 20%;
-  top: 100px;
+  transform: translateY(240%);
   @media screen and (max-width: 967px) {
     margin: 0 auto;
   }

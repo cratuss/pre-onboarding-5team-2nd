@@ -65,6 +65,7 @@ const SelectboxBlock = styled.div`
       padding: 8px;
       border-radius: 5px;
       cursor: pointer;
+      text-align: center;
     }
   }
 
@@ -77,7 +78,7 @@ const SelectboxBlock = styled.div`
       justify-content: space-between;
       flex-wrap: wrap;
       li {
-        width: 25%;
+        width: 24%;
         border: 1px solid black;
         padding: 4px;
         border-radius: 5px;
