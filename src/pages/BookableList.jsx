@@ -1,3 +1,4 @@
+import { createContext, useState } from 'react';
 import styled from 'styled-components';
 import Calander from '../components/BookableList/Calander';
 
@@ -10,7 +11,14 @@ const BookableList = () => {
 };
 
 const BookableListBlock = styled.div`
-  width: 85%;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+  @media screen and (max-width: 967px) {
+    top: 100px;
+    margin: 0 auto;
+  }
 `;
 
 export default BookableList;

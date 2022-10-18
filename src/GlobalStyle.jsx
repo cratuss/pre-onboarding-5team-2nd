@@ -16,10 +16,21 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    margin: 0 auto;
+    position: relative;
+    max-width: 1500px;
+    min-height: 1000px;
+    min-height: 780px;
+    margin: 70px auto;
     background: #FFFFFF;
+    border: 1px solid black;
     color : #000000;
     font-family: 'Noto Sans KR', sans-serif;
+    @media screen and (max-width: 967px) {
+      margin: 0px auto;
+    }
+    @media screen and (max-width: 560px) {
+      min-height: 700px;
+    }
   } 
 `;
 
