@@ -111,14 +111,19 @@ npm run dev
 
 # 주요기능 시연
 
+## ✅ 메인페이지 ~ 폼 입력완료
+
 ![룰루랩 시연영상1](https://user-images.githubusercontent.com/88419431/196413380-a7828bb4-8b58-476a-827f-53e4213c6d0e.gif)
 <br/>
 <br/>
+
+## ✅ 예약조회
 
 ![룰루랩 시연영상2](https://user-images.githubusercontent.com/88419431/196413412-f177cd0a-8d57-4008-b758-cdf4764500f5.gif)
 <br/>
 <br/>
 
+## ✅ 반응형
 
 ![룰루랩 시연영상3](https://user-images.githubusercontent.com/88419431/196413432-5937d8a2-a502-4711-a6b2-c2b59801a439.gif)
 <br/>
