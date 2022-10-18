@@ -70,7 +70,11 @@ const AllForm = () => {
 
         <Form.Group className='mb-3'>
           <Form.Label>목적</Form.Label>
-          <Form.Select onChange={selected => setType(selected)}>
+          <Form.Select
+            onChange={selected => {
+              setType(selected.currentTarget.value);
+            }}
+          >
             <option value={'건강검진'}>건강검진</option>
             <option value={'진료'}>진료</option>
             <option value={'치료'}>치료</option>

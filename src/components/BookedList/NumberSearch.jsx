@@ -25,6 +25,7 @@ const NumberSearch = () => {
   };
 
   const confirm = () => {
+    console.log(data);
     let result = false;
     for (let i = 0; i < data.length; i++) {
       if (String(data[i].no) === inputNum) {
