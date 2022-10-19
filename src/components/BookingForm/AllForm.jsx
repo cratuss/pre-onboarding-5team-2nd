@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import { DataContext } from '../../App';
 import { SelectDateContext, SelectTimeContext, ReservationNumContext } from '../../App';
 import { useNavigate } from 'react-router-dom';

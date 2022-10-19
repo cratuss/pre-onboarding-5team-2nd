@@ -1,9 +1,9 @@
-import { useContext } from 'react';
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
 import { ReservationNumContext } from '../../App';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useNavigate } from 'react-router-dom';
 
 const Complete = () => {
   const { reservationNum, setReservationNum } = useContext(ReservationNumContext);

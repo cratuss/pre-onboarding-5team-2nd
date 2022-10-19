@@ -1,6 +1,6 @@
+import styled from 'styled-components';
 import { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styled from 'styled-components';
 import { ReservationDataContext } from '../../App';
 import Button from 'react-bootstrap/Button';
 

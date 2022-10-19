@@ -21,10 +21,7 @@ const Selectbox = ({ exceptTime }) => {
     (async () => {
       try {
         const { data } = await axios('/data/noshow.json');
-        console.log(data.noshow_list);
-        console.log(JSON.parse(localStorage.getItem('name')));
         if (data.noshow_list.includes(JSON.parse(localStorage.getItem('name')))) {
-          console.log('real');
           setNoshow(true);
         }
       } catch (error) {
