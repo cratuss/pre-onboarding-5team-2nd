@@ -70,7 +70,7 @@ npm run dev
 <br/>
 
 2. 브라우저에서 http://localhost:3000/pre-onboarding-lululab-leedongho/ 로 접속하거나,
-[배포주소](https://cratuss.github.io/pre-onboarding-lululab-leedongho/)로 접속해주시면 됩니다.
+[배포주소](https://pre-onboarding-lululab-leedongho.netlify.app)로 접속해주시면 됩니다.
 
    <br/>
    <br/>
